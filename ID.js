@@ -1,7 +1,7 @@
 / *
-Quantumult X 1.0.3 加ID
+Quantumult X 加ID
 
-QX 1.0.3：
+QX ：
 ^  ^https:\/\/(raw.githubusercontent|\w+\.github)\.(com|io)\/.*\.js$ url script-response-body https://raw.githubusercontent.com/eR1zxNO/Rewrite/master/ID.js
 
 MitM = raw.githubusercontent.com, *.github.io, 
