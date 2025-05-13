@@ -8,8 +8,9 @@
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/eR1zxNO/Rewrite/refs/heads/master/2",
       "epg": "https://live.fanmingming.com/e.xml",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
-    }, {
-      "name": "GD1,
+    },
+    {
+      "name": "GD",
       "type": 0,
       "ua": "AptvPlayer/1.2.5",
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/eR1zxNO/Rewrite/refs/heads/master/1",
