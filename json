@@ -1,10 +1,42 @@
 {
-  "name": "CatPaw Crazy 配置",
+  "name": "🐱 CatPaw Crazy 优化版",
   "author": "ggboomla",
-  "version": 1,
-  "spider": "https://raw.githubusercontent.com/ggboomla/catpaw/crazy/index.js;md5;bb966cac463b699bd80f83e10659285b",
-  "sites": [],
-  "parses": [],
+  "version": "1.2",
+  "spider": "https://cdn.jsdelivr.net/gh/ggboomla/catpaw@crazy/index.js;md5;bb966cac463b699bd80f83e10659285b",
+  
+  "sites": [
+    {
+      "key": "drpy_js",
+      "name": "🐱 CatPaw Crazy",
+      "type": 3,
+      "api": "csp_Drpy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cdn.jsdelivr.net/gh/ggboomla/catpaw@crazy/index.config.js"
+    }
+  ],
+
+  "parses": [
+    {
+      "name": "🔍 聚合解析",
+      "type": 1,
+      "url": "https://jx.jsonplayer.top/jx.php?url="
+    },
+    {
+      "name": "🚀 解析2",
+      "type": 0,
+      "url": "https://parse.ikun.tv/jx.php?url="
+    },
+    {
+      "name": "⚡ 解析3",
+      "type": 0,
+      "url": "https://jx.playerjy.com/jx.php?url="
+    }
+  ],
+
   "lives": [],
-  "rules": []
+  "rules": [],
+  "flags": ["4K", "1080P", "720P", "HD", "SD", "高清", "标清"],
+  "wallpaper": "https://i2.100024.xyz/2024/01/13/pptcej.webp"
 }
