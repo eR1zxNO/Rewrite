@@ -1,0 +1,324 @@
+﻿{
+  "spider": "https://gitee.com/q90491/11/raw/master/fm.jar;md5;b3f144d34651b79384fc9e1ca4e3e310",
+  "lives": [
+    {
+      "name": "广东TV",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/eR1zxNO/Rewrite/refs/heads/master/1",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png" 
+    },
+    {
+      "name": "鱼丸Catvod",
+      "url": "https://live.catvod.com/live.php?token=8988921168ac8af61bd614b75bbde84c30bd44621fff8d0f0a58456b0b6a49e6",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "url": "https://files.catbox.moe/h0tjh7.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png" 
+    },
+    {
+      "name": "IPTV PRO",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    }, 
+    {
+      "name": "ITV",
+      "type": 0,
+      "url": "http://125.208.22.226:8066/zb.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+      "timeout": 5,
+      "playerType": 2,
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }, 
+    {
+      "name": "GD1",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/%E7%BB%84%E6%92%AD_%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    },
+    {
+      "name": "GD2",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ngdikman/hksar/refs/heads/main/guangdian.m3u",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    }, 
+    {
+      "name": "捡来的",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "url": "https://files.catbox.moe/h0tjh7.txt",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "直播聚合",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://tv.iill.top/m3u/Live",
+      "epg": "https://live.fanmingming.com/e.xml",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+        "name": "Gather",
+        "type": 0,
+        "url": "http://tv.iill.top/m3u/Gather",
+        "ua": "okhttp/3.8.1",
+        "timeout": 20,
+        "playerType": 1
+      },
+      {
+      "name": "Live",
+      "type": 0,
+      "url": "http://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 1
+    }
+  ],
+  "sites": [
+    {
+      "key": "csp_Nmys",
+      "name": "??┃农民┃影视",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json"
+    },
+    {
+      "key": "nangua",
+      "name": "??┃南瓜┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/南瓜.js"
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "??┃玩偶┃影视",
+      "api": "csp_Wogg",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "file://fatcat/token.txt"
+    },
+    {
+      "key": "蜂鸟",
+      "name": "???┃蜂鸟┃影视",
+      "type": 3,
+      "api": "csp_AppSK",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn",
+      "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+    },
+    {
+      "key": "南坊",
+      "name": "?┃南坊┃影视",
+      "type": 3,
+      "api": "csp_AppMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsj/P87VXSxEVLnwNm4fos8lCFL74+azvs61n89svqg=",
+      "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+    },
+    {
+      "key": "影探",
+      "name": " ??┃影探┃影视",
+      "type": 3,
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/yt.js"
+    },
+    {
+      "key": "忍者",
+      "name": "??┃忍者┃影视",
+      "api": "csp_AppRZ",
+      "type": 3,
+      "playerType": "2",
+      "ext": "http://rzys.xyz/"
+    },
+    {
+      "key": "荐片",
+      "name": "??┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "http://api2.rinhome.com"
+    },
+    {
+      "key": "csp_Cs1369",
+      "name": "??┃九六┃影视",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Auete",
+      "name": "??┃Aue┃影视",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Kuaikan",
+      "name": "??┃快看┃影视",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "??┃厂长┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czsapp",
+      "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ240128.jar"
+    },
+    {
+      "key": "Libvio",
+      "name": "??┃Lib┃影视",
+      "type": 3,
+      "playerType": "1",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/LIBVIO.js"
+    },
+    {
+      "key": "FreeOK",
+      "name": "????┃Fre┃影视",
+      "type": 3,
+      "api": "csp_Freeok",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "哔嘀",
+      "name": "????┃哔嘀┃影视",
+      "type": 3,
+      "api": "csp_Bdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": "1"
+    },
+    {
+      "key": "皮皮虾",
+      "name": "??┃皮皮┃影视",
+      "type": 3,
+      "api": "csp_PipiXia",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "saohuo",
+      "name": " ??┃骚火┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/骚火.js"
+    },
+    {
+      "key": "爱看影视",
+      "name": "?┃爱看┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/爱看.js"
+    },
+    {
+      "key": "圣城影视",
+      "name": "??┃圣城┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/SC1080.js"
+    },
+    {
+      "key": "云播影视",
+      "name": "??┃云播┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/TVB云播.js"
+    },
+    {
+      "key": "新视觉",
+      "name": "??┃视觉┃影视",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.80yy3.com/"
+    },
+    {
+      "key": "二三",
+      "name": "2??┃二三┃影视",
+      "type": 3,
+      "api": "csp_Ys23",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.80yy3.com/"
+    },
+    {
+      "key": "007影视",
+      "name": "??┃零七┃影视",
+      "type": 3,
+      "playerType": "1",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/007.js"
+    },
+    {
+      "key": "低端",
+      "name": "??┃低端┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/ddys.js"
+    },
+    {
+      "key": "奇优",
+      "name": " ??┃奇优┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/奇优.js"
+    },
+    {
+      "key": "虎虎",
+      "name": "??┃虎虎┃影视",
+      "type": 3,
+      "api": "csp_Panda",
+      "ext": "http://我不是.肥猫.live/json/虎虎.json",
+      "jar": "http://like.xn--z7x900a.live:66/jar/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "??┃360┃官源",
+      "type": 3,
+      "api": "https://d.kstore.space/download/6296/js/lib/drpy2.min.js",
+      "ext": "https://d.kstore.space/download/6296/js/360.js"
+    }
+  ]
+}
