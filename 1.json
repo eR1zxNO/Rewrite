@@ -18,15 +18,6 @@
       "logo": "https://logo.catvod.com/{name}.png" 
     },
     {
-      "name": "yang-1989",
-      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
-      "type": 0,
-      "ua": "okhttp/3.15",
-      "url": "https://files.catbox.moe/h0tjh7.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png" 
-    },
-    {
       "name": "IPTV PRO",
       "type": 0,
       "ua": "AptvPlayer/1.2.5",
