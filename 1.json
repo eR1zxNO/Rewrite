@@ -1,6 +1,14 @@
 ﻿{
   "spider": "https://gitee.com/q90491/11/raw/master/fm.jar;md5;b3f144d34651b79384fc9e1ca4e3e310",
-  "lives": [
+  "lives": [  
+    {
+      "name": "yang-1989",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png" 
+    },
     {
       "name": "广东TV",
       "type": 0,
@@ -10,8 +18,8 @@
       "logo": "https://logo.catvod.com/{name}.png" 
     },
     {
-      "name": "鱼丸Catvod",
-      "url": "https://live.catvod.com/live.php?token=8988921168ac8af61bd614b75bbde84c30bd44621fff8d0f0a58456b0b6a49e6",
+      "name": "yang-1989",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
       "type": 0,
       "ua": "okhttp/3.15",
       "url": "https://files.catbox.moe/h0tjh7.txt",
