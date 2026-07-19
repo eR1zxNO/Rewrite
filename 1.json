@@ -52,10 +52,10 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }, 
     {
-      "name": "GD2",
+      "name": "iptv",
       "type": 0,
       "ua": "AptvPlayer/1.2.5",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ngdikman/hksar/refs/heads/main/guangdian.m3u",
+      "url": "https://iptv.852851.xyz/sub/ebMaVCuF6lTu/playlist.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://logo.catvod.com/{name}.png"
     },
