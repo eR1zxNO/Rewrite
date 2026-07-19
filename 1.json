@@ -5,7 +5,7 @@
       "name": "yang-1989",
       "type": 0,
       "ua": "okhttp/3.15",
-      "url": "https://cdn-1.yang-1989.xyz/playlist.m3u",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png" 
     },
@@ -18,23 +18,23 @@
       "logo": "https://logo.catvod.com/{name}.png" 
     },
     {
-      "name": "IPTV PRO",
+      "name": "网络直播",
       "type": 0,
-      "ua": "AptvPlayer/1.2.5",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://logo.catvod.com/{name}.png"
-    }, 
-    {
-      "name": "ITV",
-      "type": 0,
-      "url": "http://125.208.22.226:8066/zb.txt",
+      "url": "https://live.yang-1989.eu.org/Live.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "ua": "okhttp/3.15,AptvPlayer/1.4.0",
       "timeout": 5,
       "playerType": 2,
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }, 
+    },  
+    {
+      "name": "抖音",
+      "type": 0,
+      "ua": "okhttp/3.15",
+      "url": "https://live.yang-1989.eu.org/Live.m3u",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "GD1",
       "type": 0,
@@ -50,15 +50,15 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/ngdikman/hksar/refs/heads/main/guangdian.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://logo.catvod.com/{name}.png"
-    }, 
-    {
-      "name": "捡来的",
-      "type": 0,
-      "ua": "okhttp/3.15",
-      "url": "https://files.catbox.moe/h0tjh7.txt",
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+    {
+      "name": "IPTV PRO",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    },     
     {
       "name": "直播聚合",
       "type": 0,
