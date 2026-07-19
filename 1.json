@@ -5,7 +5,7 @@
       "name": "yang-1989",
       "type": 0,
       "ua": "okhttp/3.15",
-      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+      "url": "https://cdn-1.yang-1989.xyz/playlist.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png" 
     },
