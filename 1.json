@@ -4,7 +4,7 @@
     {
       "name": "yang-1989",
       "type": 0,
-      "ua": "okhttp/3.15",
+      "ua": "AptvPlayer/1.2.5",
       "url": "https://iptv.yang-1989.xyz/playlist.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png" 
@@ -12,7 +12,7 @@
     {
       "name": "裤佬TV",
       "type": 0,
-      "ua": "okhttp/3.15",
+      "ua": "AptvPlayer/1.2.5",
       "url": "https://iptv.445569.xyz/live.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -52,7 +52,7 @@
     {
       "name": "潇雨TV",
       "type": 0,
-      "ua": "okhttp/3.15",
+      "ua": "AptvPlayer/1.2.5",
       "url": "https://2121.ccwu.cc",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
