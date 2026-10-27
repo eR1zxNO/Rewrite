@@ -2,14 +2,6 @@
   "spider": "https://gitee.com/q90491/11/raw/master/fm.jar;md5;b3f144d34651b79384fc9e1ca4e3e310",
   "lives": [ 
     {
-      "name": "yang-1989",
-      "type": 0,
-      "ua": "AptvPlayer/1.2.5",
-      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png" 
-    },
-    {
       "name": "裤佬TV",
       "type": 0,
       "ua": "AptvPlayer/1.2.5",
@@ -32,6 +24,14 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://logo.catvod.com/{name}.png"
+    },
+    {
+      "name": "yang-1989",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png" 
     },
     {
       "name": "itvlist",
