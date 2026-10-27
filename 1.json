@@ -16,7 +16,7 @@
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/eR1zxNO/Rewrite/refs/heads/master/1",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://logo.catvod.com/{name}.png" 
-    },  
+    },
     {
       "name": "裤佬TV",
       "type": 0,
@@ -24,6 +24,30 @@
       "url": "https://live.445569.xyz/live.m3u",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }, 
+    {
+      "name": "Kimentanm",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://bit.ly/iptv-aptv",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    },
+    {
+      "name": "itvlist",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://bit.ly/itvlist",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
+    }, 
+    {
+      "name": "suxuang",
+      "type": 0,
+      "ua": "AptvPlayer/1.2.5",
+      "url": "https://bit.ly/suxuang-v4",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://logo.catvod.com/{name}.png"
     },
     {
       "name": "潇雨TV",
@@ -50,22 +74,6 @@
       "timeout": 5,
       "playerType": 2,
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }, 
-    {
-      "name": "iptv",
-      "type": 0,
-      "ua": "AptvPlayer/1.2.5",
-      "url": "https://iptv.852851.xyz/sub/ebMaVCuF6lTu/playlist.m3u",
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://logo.catvod.com/{name}.png"
-    },
-    {
-      "name": "IPTV PRO",
-      "type": 0,
-      "ua": "AptvPlayer/1.2.5",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://logo.catvod.com/{name}.png"
     },     
     {
       "name": "直播聚合",
